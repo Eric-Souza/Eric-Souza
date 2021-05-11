@@ -1,11 +1,10 @@
 <h1 align="center">
-  <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px"> 
     Hi there, I'm Eric Souza 
-  <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">
+    <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">
 </h1>
 
 <h3 align="center">
-   📱 A passionate Software Engineer from Brazil 💻
+   A passionate Software Engineer from Brazil
 </h3>
 
 <h3 align="left">Feel free to connect with me</h3>
