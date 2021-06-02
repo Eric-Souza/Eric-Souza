@@ -1,5 +1,5 @@
 <h1 align="center">
-    Hi there, I'm Eric Souza, a passionate Software Engineer <br/>
+    Hi there, I'm Eric Souza, a passionate Software Engineer <br/><br/>
     <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">
 </h1>
 
