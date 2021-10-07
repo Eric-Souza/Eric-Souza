@@ -14,6 +14,10 @@
 
 <hr />
 
+<p align="left">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=eric-souza&show_icons=true&theme=dark&locale=en&layout=compact" alt="eric-souza" />
+</p>
+
 <h2 align="left">Technological Knowledge</h2>
 
 <h3 align="left">Web Development</h3>
@@ -68,9 +72,3 @@
 
 ![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-
-<hr />
-
-<p>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=eric-souza&show_icons=true&theme=dark&locale=en&layout=compact" alt="eric-souza" />
-</p>
