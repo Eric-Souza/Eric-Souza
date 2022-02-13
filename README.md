@@ -4,7 +4,7 @@
     <br/><br/>
 </h1>
 
-<h3 align="left">Feel free to connect with me</h3>
+<h3 align="left">Feel free to connect with me by clicking the LinkedIn logo below</h3>
 
 <p align="left">
   <a href="https://www.linkedin.com/in/eric-de-oliveira-souza-0157b618b/?locale=en_US" target="blank"> 
