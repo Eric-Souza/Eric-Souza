@@ -1,5 +1,5 @@
 <h1 align="center">
-    Hi there, I'm Eric! <br/> A dedicated full stack Software Engineer <br/><br/>
+    Hi there, I'm Eric! <br/> A dedicated Full Stack Software Engineer <br/><br/>
     <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">
     <br/><br/>
 </h1>
