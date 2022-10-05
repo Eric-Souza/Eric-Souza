@@ -14,10 +14,6 @@
 
 <hr />
 
-<p align="left">
-  ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Eric-Souza&theme=tokyonight)
-</p>
-
 <h2 align="left">Technological Knowledge</h2>
 
 <h3 align="left">Web Development</h3>
