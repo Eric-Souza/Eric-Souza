@@ -15,7 +15,7 @@
 <hr />
 
 <p align="left">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=eric-souza&show_icons=true&theme=dark&locale=en&layout=compact" alt="eric-souza" />
+  ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Eric-Souza&theme=tokyonight)
 </p>
 
 <h2 align="left">Technological Knowledge</h2>
