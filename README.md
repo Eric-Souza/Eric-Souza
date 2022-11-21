@@ -4,11 +4,11 @@
     <br/><br/>
 </h1>
 
-- 💼 I’m currently working internationally on [Exit83](https://exit83.com)
+- 💼 I’m currently working internationally at [Exit83](https://exit83.com)
 
 - 📚 Software Engineering graduate
 
-- 📫 How to reach me **eric.bh18souza@gmail.com**
+- 📫 Reach me at **eric.bh18souza@gmail.com**
 
 <h3 align="left">Feel free to connect with me by clicking the logos below:</h3>
 
