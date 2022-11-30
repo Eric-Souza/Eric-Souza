@@ -23,6 +23,10 @@
 
 <hr />
 
+<p align="left">
+    <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Eric-Souza&hide_langs_below=1&theme=radical&layout=compact" />
+</p>
+
 <h2 align="left">Technological Knowledge</h2>
 
 <h3 align="left">Web Development</h3>
