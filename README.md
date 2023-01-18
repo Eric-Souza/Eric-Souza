@@ -24,7 +24,7 @@
 <hr />
 
 <p align="left">
-    <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Eric-Souza&hide_langs_below=1&theme=radical&layout=compact" />
+    <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Eric-Souza&hide_langs_below=1&theme=radical" />
 </p>
 
 <h2 align="left">Technological Knowledge</h2>
