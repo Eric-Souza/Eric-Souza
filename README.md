@@ -4,7 +4,7 @@
     <br/><br/>
 </h1>
 
-- 💼 I’m currently working internationally at [Exit83 Consulting](https://exit83.com)
+- 💼 I’m currently working internationally at [Remedy Product Studio](https://www.remedyproduct.com/)
 
 - 📚 Software Engineering graduate
 
