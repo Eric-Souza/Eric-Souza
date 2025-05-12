@@ -4,7 +4,7 @@
     <br/><br/>
 </h1>
 
-- 💼 I’m currently working internationally at [TeamEx](https://teamex.io/) as a Tech Lead
+- 💼 Currently working internationally at [TeamEx](https://teamex.io/) as a Tech Lead
 
 - 📫 Reach me at **eric.bh18souza@gmail.com**
 
