@@ -4,7 +4,7 @@
     <br/><br/>
 </h1>
 
-- 💼 I’m currently working internationally at [TeamEx](https://teamex.io/))
+- 💼 I’m currently working internationally at [TeamEx](https://teamex.io/)
 
 - 📚 Software Engineering graduate
 
