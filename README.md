@@ -6,7 +6,7 @@
 
 - 💼 I’m currently working internationally at [TeamEx](https://teamex.io/)
 
-- 📚 Software Engineering graduate
+- 📚 Tech Lead
 
 - 📫 Reach me at **eric.bh18souza@gmail.com**
 
