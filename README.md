@@ -25,6 +25,59 @@ Senior Full Stack & AI Engineer with **8+ years** building production software a
 
 ---
 
+## 💼 Experience
+
+| Role | Company | Period |
+| --- | --- | --- |
+| **Founding Full Stack & AI Engineer** | TeamEx · *Essential Estates for Summerall Law* | May 2025 – Present |
+| **Sr. Full Stack & AI Engineer** | EXIT83 · *Remedy Product Studio* | Jun 2022 – May 2025 |
+| **Full Stack Engineer** | Z.ro Bank | Jul 2020 – Jun 2022 |
+| **Full Stack Engineer** | Kognita Lab | Dec 2018 – Jul 2020 |
+| **Full Stack Engineer (Intern)** | Mundiale | Jan 2018 – Dec 2018 |
+
+- ⚖️ **Legal-tech:** built Essential Estates from zero to production and own it end to end. Made the architecture calls, ran AWS infra and CI/CD, built LLM/RAG document features, and hired and led the team.
+- 🧠 **Healthcare:** built treatment and EEG workflows used by clinics worldwide, with React/Next frontends, Node/NestJS services, and Redis caching on AWS.
+- 🏦 **Banking:** moved the core banking back end of Brazil's first multi-currency digital bank to microservices with Apache Kafka, built for high transaction volume.
+- 🗺️ **AI & geospatial:** built a platform that delivered AI-generated location heatmaps to clients.
+- 🛒 **E-commerce:** built purchase flows and customer management for a South American telecom provider.
+
+---
+
+## 🌟 Featured Projects
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/Eric-Souza/gemini-rag-doc-processing">📄 Gemini RAG Doc Processing</a></h3>
+      Upload documents and chat with them. Embeds with Google Gemini, retrieves with Chroma, and orchestrates answers with LangChain and LangGraph.
+      <br/><br/>
+      <sub><b>Python · FastAPI · LangChain · LangGraph · Gemini · Chroma · React · TypeScript</b></sub>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/Eric-Souza/travel-planner-api">✈️ Travel Planner</a></h3>
+      Local-first AI travel planner. A FastAPI back end handles RAG over uploaded bookings and streams responses over SSE to an <a href="https://github.com/Eric-Souza/travel-planner-mobile">Expo / React Native app</a>.
+      <br/><br/>
+      <sub><b>Python · FastAPI · LangChain · Ollama · pgvector · React Native · TypeScript</b></sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/Eric-Souza/job-dispatch-bot">📲 DispatchBot</a></h3>
+      SMS-style booking agent for home-services businesses. The LLM handles the conversation, and code validates every job server-side before it's stored.
+      <br/><br/>
+      <sub><b>Python · FastAPI · OpenAI Responses API · Next.js · Tailwind CSS</b></sub>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/Eric-Souza/therapy-session-review-test">🩺 Lakeside Session Review Console</a></h3>
+      Clinical review console where clinicians finalize session notes and supervisors oversee the practice. Appointments arrive via a signed vendor webhook.
+      <br/><br/>
+      <sub><b>TypeScript · NestJS · TypeORM · Postgres · React · Redux Toolkit · Jest · Vitest</b></sub>
+    </td>
+  </tr>
+</table>
+
+---
+
 ## 🛠️ Tech Stack
 
 <h4>Languages & Frameworks</h4>
@@ -78,6 +131,15 @@ Senior Full Stack & AI Engineer with **8+ years** building production software a
   <img src="https://img.shields.io/badge/Jest-21262D?style=for-the-badge&logo=jest&logoColor=C21325" alt="Jest" />
   <img src="https://img.shields.io/badge/Vitest-21262D?style=for-the-badge&logo=vitest&logoColor=6E9F18" alt="Vitest" />
 </p>
+
+---
+
+## ✍️ Latest Articles
+
+<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:END -->
+
+➡️ <a href="https://medium.com/@eric.bh18souza">More on Medium</a>
 
 ---
 
