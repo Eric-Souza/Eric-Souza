@@ -23,87 +23,70 @@ I'm fluent in both **web** and **AI**. I build everything from **complex UIs** t
 
 I also own what surrounds the code: **system design**, **CI/CD**, and **cloud infrastructure** on **AWS** and **GCP**. I've led teams, set code and delivery standards, and I work directly with clients to turn what they need into features that ship.
 
+<p>
+  <b>Frontend</b><br/>
+  <code>JavaScript</code> <code>TypeScript</code> <code>React</code> <code>Next.js</code> <code>Material UI</code> <code>Bootstrap</code> <code>Redux</code> <code>Framer Motion</code> <code>HTML/CSS</code> <code>Styled Components</code> <code>Tailwind CSS</code> <code>TanStack Query</code>
+</p>
+<p>
+  <b>Backend</b><br/>
+  <code>Node.js</code> <code>NestJS</code> <code>Express</code> <code>Python</code> <code>FastAPI</code> <code>Flask</code> <code>RESTful APIs</code> <code>WebSockets</code>
+</p>
+<p>
+  <b>AI Engineering</b><br/>
+  <code>AI Integrations</code> <code>LLMs</code> <code>OpenAI</code> <code>Amazon Bedrock</code> <code>LiteLLM</code> <code>RAG</code> <code>LangChain</code> <code>FastAPI</code> <code>Document Processing</code> <code>fal.ai</code> <code>nano-banana</code>
+</p>
+<p>
+  <b>AI Tools</b><br/>
+  <code>Cursor</code> <code>Claude</code> <code>Claude Code</code> <code>ChatGPT</code> <code>Cursor Bugbot</code> <code>AI-Assisted Development</code>
+</p>
+<p>
+  <b>Cloud & DevOps</b><br/>
+  <code>AWS (S3, EC2, RDS, Lambda, CloudFront, ACM, IAM, Bedrock)</code> <code>GCP (Cloud Run, Cloud SQL, Pub/Sub, API Gateway)</code> <code>Azure (Blob)</code> <code>Terraform</code> <code>Docker</code> <code>Kubernetes</code> <code>GitHub Actions</code> <code>CI/CD</code> <code>Datadog</code>
+</p>
+<p>
+  <b>Architecture</b><br/>
+  <code>Microservices</code> <code>Service-Oriented Architecture</code> <code>Apache Kafka</code> <code>Event-Driven Systems</code> <code>System Design</code>
+</p>
+<p>
+  <b>Data</b><br/>
+  <code>PostgreSQL</code> <code>DynamoDB</code> <code>MongoDB</code> <code>SQLite</code> <code>Redis</code> <code>TypeORM</code> <code>Sequelize</code> <code>Mongoose</code> <code>Prisma</code> <code>dbt</code>
+</p>
+<p>
+  <b>Testing & Quality</b><br/>
+  <code>Jest</code> <code>Vitest</code> <code>Code Review</code> <code>E2E Testing</code>
+</p>
+<p>
+  <b>Tools & Practices</b><br/>
+  <code>Git</code> <code>GitHub</code> <code>Jira</code> <code>Linear</code> <code>Shortcut</code> <code>Google Analytics 4</code> <code>Agile</code> <code>Technical Documentation</code>
+</p>
+
 ---
 
 ### AI Projects
 
-<p>
-  <b><a href="https://github.com/Eric-Souza/gemini-rag-doc-processing">gemini-rag-doc-processing</a></b><br/>
-  Upload documents and chat with them. Embeds with Google Gemini, retrieves with Chroma, and orchestrates answers with LangChain and LangGraph.<br/>
-  <code>Python</code> <code>FastAPI</code> <code>LangChain</code> <code>LangGraph</code> <code>Gemini</code> <code>Chroma</code> <code>React</code> <code>TypeScript</code>
-</p>
+#### [Gemini RAG Doc Processing](https://github.com/Eric-Souza/gemini-rag-doc-processing)
 
-<p>
-  <b><a href="https://github.com/Eric-Souza/travel-planner-api">travel-planner</a></b><br/>
-  Local-first AI travel planner. A FastAPI back end handles RAG over uploaded bookings and streams responses over SSE to an <a href="https://github.com/Eric-Souza/travel-planner-mobile">Expo / React Native app</a>.<br/>
-  <code>Python</code> <code>FastAPI</code> <code>LangChain</code> <code>Ollama</code> <code>pgvector</code> <code>React Native</code> <code>TypeScript</code>
-</p>
+Upload documents and chat with them. Embeds with Google Gemini, retrieves with Chroma, and orchestrates answers with LangChain and LangGraph.
 
-<p>
-  <b><a href="https://github.com/Eric-Souza/job-dispatch-bot">dispatch-bot</a></b><br/>
-  SMS-style booking agent for home-services businesses. The LLM handles the conversation, and code validates every job server-side before it's stored.<br/>
-  <code>Python</code> <code>FastAPI</code> <code>OpenAI Responses API</code> <code>Next.js</code> <code>Tailwind CSS</code>
-</p>
+<code>Python</code> <code>FastAPI</code> <code>LangChain</code> <code>LangGraph</code> <code>Gemini</code> <code>Chroma</code> <code>React</code> <code>TypeScript</code>
 
-<p>
-  <b><a href="https://github.com/Eric-Souza/therapy-session-review-test">lakeside-session-review-console</a></b><br/>
-  Clinical review console where clinicians finalize session notes and supervisors oversee the practice. Appointments arrive via a signed vendor webhook.<br/>
-  <code>TypeScript</code> <code>NestJS</code> <code>TypeORM</code> <code>Postgres</code> <code>React</code> <code>Redux Toolkit</code> <code>Jest</code> <code>Vitest</code>
-</p>
+#### [Travel Planner](https://github.com/Eric-Souza/travel-planner-api)
 
----
+Local-first AI travel planner. A FastAPI back end handles RAG over uploaded bookings and streams responses over SSE to an [Expo / React Native app](https://github.com/Eric-Souza/travel-planner-mobile).
 
-### Tech Stack
+<code>Python</code> <code>FastAPI</code> <code>LangChain</code> <code>Ollama</code> <code>pgvector</code> <code>React Native</code> <code>TypeScript</code>
 
-<table>
-  <tr>
-    <td><b>Languages</b></td>
-    <td><code>TypeScript</code> <code>JavaScript</code> <code>Python</code></td>
-  </tr>
-  <tr>
-    <td><b>Frontend</b></td>
-    <td><code>React</code> <code>Next.js</code> <code>React Native</code> <code>Redux</code> <code>Tailwind CSS</code></td>
-  </tr>
-  <tr>
-    <td><b>Backend</b></td>
-    <td><code>Node.js</code> <code>NestJS</code> <code>Express</code> <code>FastAPI</code></td>
-  </tr>
-  <tr>
-    <td><b>Data</b></td>
-    <td><code>PostgreSQL</code> <code>MongoDB</code> <code>DynamoDB</code> <code>Redis</code> <code>TypeORM</code> <code>Sequelize</code></td>
-  </tr>
-  <tr>
-    <td><b>AI</b></td>
-    <td><code>LLMs</code> <code>RAG</code> <code>Agents</code> <code>LangChain</code> <code>LangGraph</code> <code>pgvector</code> <code>Chroma</code></td>
-  </tr>
-  <tr>
-    <td><b>Cloud & DevOps</b></td>
-    <td><code>AWS</code> <code>GCP</code> <code>Azure</code> <code>Docker</code> <code>Kubernetes</code> <code>GitHub Actions</code> <code>CI/CD</code></td>
-  </tr>
-  <tr>
-    <td><b>Architecture</b></td>
-    <td><code>Microservices</code> <code>REST APIs</code> <code>Apache Kafka</code> <code>WebSockets</code> <code>SSR / CSR</code></td>
-  </tr>
-  <tr>
-    <td><b>Testing & Tools</b></td>
-    <td><code>Jest</code> <code>Vitest</code> <code>Claude</code> <code>Cursor</code></td>
-  </tr>
-</table>
+#### [DispatchBot](https://github.com/Eric-Souza/job-dispatch-bot)
 
----
+SMS-style booking agent for home-services businesses. The LLM handles the conversation, and code validates every job server-side before it's stored.
 
-### Latest Articles
+<code>Python</code> <code>FastAPI</code> <code>OpenAI Responses API</code> <code>Next.js</code> <code>Tailwind CSS</code>
 
-<table>
-<!-- BLOG-POST-LIST:START --><tr><td><a href="https://blog.stackademic.com/building-a-production-style-document-q-a-system-with-gemini-langchain-and-fastapi-97c73b47fd4b?source=rss-524950c16160------2">Building a Production-Style Document Q&amp;A System with Gemini, LangChain, and FastAPI</a></td><td><code>2026-08-24</code></td></tr>
-<tr><td><a href="https://blog.stackademic.com/dispatchbot-keeping-ai-conversations-honest-with-server-side-job-validation-70283668f24f?source=rss-524950c16160------2">DispatchBot: Keeping AI Conversations Honest with Server-Side Job Validation</a></td><td><code>2026-07-16</code></td></tr>
-<tr><td><a href="https://blog.stackademic.com/building-an-effective-node-api-using-express-and-sequelize-9b875b7d7795?source=rss-524950c16160------2">Building an Effective Node API Using Express and Sequelize</a></td><td><code>2025-03-19</code></td></tr>
-<tr><td><a href="https://medium.com/remedy-product-studio/mimicking-youtubes-ui-with-react-native-web-a-fully-responsive-video-browsing-app-40a4f5f9244f?source=rss-524950c16160------2">Mimicking YouTube’s UI with React Native Web: A Fully Responsive Video Browsing App</a></td><td><code>2025-01-31</code></td></tr>
-<tr><td><a href="https://medium.com/remedy-product-studio/understanding-aws-essential-concepts-for-software-engineers-07b114954bd2?source=rss-524950c16160------2">Understanding AWS: Essential Concepts for Software Engineers</a></td><td><code>2025-01-06</code></td></tr>
-<!-- BLOG-POST-LIST:END -->
-</table>
+#### [Lakeside Session Review Console](https://github.com/Eric-Souza/therapy-session-review-test)
 
-<sub><a href="https://medium.com/@eric.bh18souza">→ more on Medium</a></sub>
+Clinical review console where clinicians finalize session notes and supervisors oversee the practice. Appointments arrive via a signed vendor webhook.
+
+<code>TypeScript</code> <code>NestJS</code> <code>TypeORM</code> <code>Postgres</code> <code>React</code> <code>Redux Toolkit</code> <code>Jest</code> <code>Vitest</code>
 
 ---
 
