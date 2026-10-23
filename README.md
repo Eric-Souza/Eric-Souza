@@ -11,13 +11,9 @@
 
 <br/>
 
-### About
-
-Owning and developing products from **architecture** to **production** for **8+ years**, across **legal-tech**, **healthcare**, **fintech**, **e-commerce**, and **AI**.
-
-I'm fluent in both **web** and **AI**. I build everything from **complex UIs** to integrated **REST APIs** with **React**, **Node**, and **Python**, and AI features from **document processing** and **image generation** to **prompt optimization**, using **LLMs** and **RAG**.
-
-I also own what surrounds the code: **system design**, **CI/CD**, and **cloud infrastructure** on **AWS** and **GCP**. I've led teams, set code and delivery standards, and I work directly with clients to turn what they need into features that ship.
+<p align="center">
+  <img src="assets/about.svg" width="100%" alt="Owning and developing products from architecture to production for 8+ years, across legal-tech, healthcare, fintech, e-commerce, and AI. I'm fluent in both web and AI. I build everything from complex UIs to integrated REST APIs with React, Node, and Python, and AI features from document processing and image generation to prompt optimization, using LLMs and RAG. I also own what surrounds the code: system design, CI/CD, and cloud infrastructure on AWS and GCP. I've led teams, set code and delivery standards, and I work directly with clients to turn what they need into features that ship." />
+</p>
 
 <p align="center">
   <img src="assets/skills.svg" width="100%" alt="Tech stack: Frontend, Backend, AI Engineering, AI Tools, Cloud & DevOps, Architecture, Data, Testing & Quality, Tools & Practices" />
