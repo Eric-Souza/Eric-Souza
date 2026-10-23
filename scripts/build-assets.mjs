@@ -84,6 +84,71 @@ function chips(items, x0, y0, maxWidth, { size = 12, gap = 8, rowGap = 10, color
 const frame = (h, inner) =>
   `<rect x="0.5" y="0.5" width="${W - 1}" height="${h - 1}" rx="14" fill="${C.card}" stroke="${C.border}"/>${inner}`;
 
+// Wraps text containing **bold** spans. Returns lines of words, each a list of [text, bold] runs,
+// so punctuation right after a bold span stays attached to it.
+function wrapRich(text, maxWidth, fontSize, ch = 0.5) {
+  const words = [];
+  let glue = false;
+  text.split(/(\*\*[^*]+\*\*)/).forEach((part) => {
+    if (!part) return;
+    const bold = part.startsWith("**");
+    const raw = part.replace(/\*\*/g, "");
+    raw.split(" ").forEach((w, i) => {
+      if (!w) return;
+      if (i === 0 && glue && words.length) words.at(-1).push([w, bold]);
+      else words.push([[w, bold]]);
+    });
+    glue = !raw.endsWith(" ");
+  });
+  const lines = [[]];
+  let width = 0;
+  for (const word of words) {
+    const ww = word.reduce((n, [w, bold]) => n + w.length * fontSize * (bold ? ch + 0.04 : ch), fontSize * ch);
+    if (width + ww > maxWidth && lines.at(-1).length) {
+      lines.push([]);
+      width = 0;
+    }
+    lines.at(-1).push(word);
+    width += ww;
+  }
+  return lines;
+}
+
+// ---------- About ----------
+const ABOUT = [
+  "Owning and developing products from **architecture** to **production** for **8+ years**, across **legal-tech**, **healthcare**, **fintech**, **e-commerce**, and **AI**.",
+  "I'm fluent in both **web** and **AI**. I build everything from **complex UIs** to integrated **REST APIs** with **React**, **Node**, and **Python**, and AI features from **document processing** and **image generation** to **prompt optimization**, using **LLMs** and **RAG**.",
+  "I also own what surrounds the code: **system design**, **CI/CD**, and **cloud infrastructure** on **AWS** and **GCP**. I've led teams, set code and delivery standards, and I work directly with clients to turn what they need into features that ship.",
+];
+{
+  const PAD = 36;
+  const SIZE = 16;
+  const LINE = 27;
+  let inner = `<text x="${PAD}" y="44" class="mono" font-size="13"><tspan fill="${C.green}">➜</tspan><tspan fill="${C.blue}" dx="10">~</tspan><tspan fill="${C.body}" dx="10">cat about.md</tspan></text>`;
+  let y = 84;
+  ABOUT.forEach((para, i) => {
+    for (const line of wrapRich(para, W - PAD * 2 - 24, SIZE)) {
+      const spans = line
+        .map((word) =>
+          word
+            .map(([w, bold]) =>
+              bold
+                ? `<tspan font-weight="700" fill="${C.text}">${esc(w)}</tspan>`
+                : `<tspan fill="${C.body}">${esc(w)}</tspan>`
+            )
+            .join("")
+        )
+        .join(" ");
+      inner += `<text x="${PAD + 24}" y="${y}" class="sans" font-size="${SIZE}" xml:space="preserve">${spans}</text>`;
+      y += LINE;
+    }
+    if (i < ABOUT.length - 1) y += 14;
+  });
+  inner += `<rect x="${PAD}" y="66" width="3" height="${y - 66 - LINE + 10}" rx="1.5" fill="url(#accent)"/>`;
+  const H = y + 8;
+  write("about.svg", svg(W, H, frame(H, inner)));
+}
+
 // ---------- Header ----------
 {
   const H = 250;
