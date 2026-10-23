@@ -136,7 +136,11 @@ Senior Full Stack & AI Engineer with **8+ years** building production software a
 
 ## ✍️ Latest Articles
 
-<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:START -->- [Building a Production-Style Document Q&amp;A System with Gemini, LangChain, and FastAPI](https://blog.stackademic.com/building-a-production-style-document-q-a-system-with-gemini-langchain-and-fastapi-97c73b47fd4b?source=rss-524950c16160------2) <sub>· Aug 24, 2026</sub>
+- [DispatchBot: Keeping AI Conversations Honest with Server-Side Job Validation](https://blog.stackademic.com/dispatchbot-keeping-ai-conversations-honest-with-server-side-job-validation-70283668f24f?source=rss-524950c16160------2) <sub>· Jul 16, 2026</sub>
+- [Building an Effective Node API Using Express and Sequelize](https://blog.stackademic.com/building-an-effective-node-api-using-express-and-sequelize-9b875b7d7795?source=rss-524950c16160------2) <sub>· Mar 19, 2025</sub>
+- [Mimicking YouTube’s UI with React Native Web: A Fully Responsive Video Browsing App](https://medium.com/remedy-product-studio/mimicking-youtubes-ui-with-react-native-web-a-fully-responsive-video-browsing-app-40a4f5f9244f?source=rss-524950c16160------2) <sub>· Jan 31, 2025</sub>
+- [Understanding AWS: Essential Concepts for Software Engineers](https://medium.com/remedy-product-studio/understanding-aws-essential-concepts-for-software-engineers-07b114954bd2?source=rss-524950c16160------2) <sub>· Jan 6, 2025</sub>
 <!-- BLOG-POST-LIST:END -->
 
 ➡️ <a href="https://medium.com/@eric.bh18souza">More on Medium</a>
