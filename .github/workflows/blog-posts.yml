@@ -17,6 +17,6 @@ jobs:
         with:
           feed_list: "https://medium.com/feed/@eric.bh18souza"
           max_post_count: 5
-          template: "- [$title]($url) <sub>· $date</sub>$newline"
-          date_format: "mmm d, yyyy"
+          template: "<tr><td><a href=\"$url\">$title</a></td><td><code>$date</code></td></tr>$newline"
+          date_format: "yyyy-mm-dd"
           commit_message: "Update latest Medium articles"
