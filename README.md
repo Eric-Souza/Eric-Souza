@@ -15,7 +15,7 @@
 
 ---
 
-### `$ whoami`
+### About
 
 Owning and developing products from **architecture** to **production** for **8+ years**, across **legal-tech**, **healthcare**, **fintech**, **e-commerce**, and **AI**.
 
@@ -25,42 +25,35 @@ I also own what surrounds the code: **system design**, **CI/CD**, and **cloud in
 
 ---
 
-### `$ ls ./projects`
+### AI Projects
 
-<table>
-  <tr>
-    <td>
-      <h4><a href="https://github.com/Eric-Souza/gemini-rag-doc-processing">gemini-rag-doc-processing</a></h4>
-      <p>Upload documents and chat with them. Embeds with Google Gemini, retrieves with Chroma, and orchestrates answers with LangChain and LangGraph.</p>
-      <p><code>Python</code> <code>FastAPI</code> <code>LangChain</code> <code>LangGraph</code> <code>Gemini</code> <code>Chroma</code> <code>React</code> <code>TypeScript</code></p>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <h4><a href="https://github.com/Eric-Souza/travel-planner-api">travel-planner</a></h4>
-      <p>Local-first AI travel planner. A FastAPI back end handles RAG over uploaded bookings and streams responses over SSE to an <a href="https://github.com/Eric-Souza/travel-planner-mobile">Expo / React Native app</a>.</p>
-      <p><code>Python</code> <code>FastAPI</code> <code>LangChain</code> <code>Ollama</code> <code>pgvector</code> <code>React Native</code> <code>TypeScript</code></p>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <h4><a href="https://github.com/Eric-Souza/job-dispatch-bot">dispatch-bot</a></h4>
-      <p>SMS-style booking agent for home-services businesses. The LLM handles the conversation, and code validates every job server-side before it's stored.</p>
-      <p><code>Python</code> <code>FastAPI</code> <code>OpenAI Responses API</code> <code>Next.js</code> <code>Tailwind CSS</code></p>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <h4><a href="https://github.com/Eric-Souza/therapy-session-review-test">lakeside-session-review-console</a></h4>
-      <p>Clinical review console where clinicians finalize session notes and supervisors oversee the practice. Appointments arrive via a signed vendor webhook.</p>
-      <p><code>TypeScript</code> <code>NestJS</code> <code>TypeORM</code> <code>Postgres</code> <code>React</code> <code>Redux Toolkit</code> <code>Jest</code> <code>Vitest</code></p>
-    </td>
-  </tr>
-</table>
+<p>
+  <b><a href="https://github.com/Eric-Souza/gemini-rag-doc-processing">gemini-rag-doc-processing</a></b><br/>
+  Upload documents and chat with them. Embeds with Google Gemini, retrieves with Chroma, and orchestrates answers with LangChain and LangGraph.<br/>
+  <code>Python</code> <code>FastAPI</code> <code>LangChain</code> <code>LangGraph</code> <code>Gemini</code> <code>Chroma</code> <code>React</code> <code>TypeScript</code>
+</p>
+
+<p>
+  <b><a href="https://github.com/Eric-Souza/travel-planner-api">travel-planner</a></b><br/>
+  Local-first AI travel planner. A FastAPI back end handles RAG over uploaded bookings and streams responses over SSE to an <a href="https://github.com/Eric-Souza/travel-planner-mobile">Expo / React Native app</a>.<br/>
+  <code>Python</code> <code>FastAPI</code> <code>LangChain</code> <code>Ollama</code> <code>pgvector</code> <code>React Native</code> <code>TypeScript</code>
+</p>
+
+<p>
+  <b><a href="https://github.com/Eric-Souza/job-dispatch-bot">dispatch-bot</a></b><br/>
+  SMS-style booking agent for home-services businesses. The LLM handles the conversation, and code validates every job server-side before it's stored.<br/>
+  <code>Python</code> <code>FastAPI</code> <code>OpenAI Responses API</code> <code>Next.js</code> <code>Tailwind CSS</code>
+</p>
+
+<p>
+  <b><a href="https://github.com/Eric-Souza/therapy-session-review-test">lakeside-session-review-console</a></b><br/>
+  Clinical review console where clinicians finalize session notes and supervisors oversee the practice. Appointments arrive via a signed vendor webhook.<br/>
+  <code>TypeScript</code> <code>NestJS</code> <code>TypeORM</code> <code>Postgres</code> <code>React</code> <code>Redux Toolkit</code> <code>Jest</code> <code>Vitest</code>
+</p>
 
 ---
 
-### `$ cat stack.txt`
+### Tech Stack
 
 <table>
   <tr>
@@ -99,7 +92,7 @@ I also own what surrounds the code: **system design**, **CI/CD**, and **cloud in
 
 ---
 
-### `$ tail -n 5 articles.log`
+### Latest Articles
 
 <table>
 <!-- BLOG-POST-LIST:START --><tr><td><a href="https://blog.stackademic.com/building-a-production-style-document-q-a-system-with-gemini-langchain-and-fastapi-97c73b47fd4b?source=rss-524950c16160------2">Building a Production-Style Document Q&amp;A System with Gemini, LangChain, and FastAPI</a></td><td><code>2026-08-24</code></td></tr>
@@ -114,10 +107,10 @@ I also own what surrounds the code: **system design**, **CI/CD**, and **cloud in
 
 ---
 
-### `$ git stats --languages`
+### Most Used Languages
 
 <p align="center">
-  <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=Eric-Souza&layout=compact&langs_count=8&card_width=500&custom_title=Most%20Used%20Languages&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&hide_border=true" alt="Most Used Languages" />
+  <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=Eric-Souza&layout=compact&langs_count=8&card_width=500&hide_title=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&hide_border=true" alt="Most Used Languages" />
 </p>
 
 ---
