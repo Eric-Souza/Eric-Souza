@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://portfolio-mu-blond-54.vercel.app/"><img src="assets/btn-portfolio.svg" height="36" alt="Portfolio" /></a>&nbsp;
-  <a href="https://www.linkedin.com/in/eric-de-oliveira-souza-0157b618b/?locale=en_US"><img src="assets/btn-linkedin.svg" height="36" alt="LinkedIn" /></a>&nbsp;
+  <a href="https://www.linkedin.com/in/ericdeoliveira/?locale=en_US"><img src="assets/btn-linkedin.svg" height="36" alt="LinkedIn" /></a>&nbsp;
   <a href="mailto:eric.bh18souza@gmail.com"><img src="assets/btn-email.svg" height="36" alt="Email" /></a>&nbsp;
   <a href="https://medium.com/@eric.bh18souza"><img src="assets/btn-medium.svg" height="36" alt="Medium" /></a>
 </p>
@@ -25,6 +25,9 @@
 
 ### AI Projects
 
+<p align="center">
+  <a href="https://github.com/Eric-Souza/currency-copilot"><img src="assets/project-currency-copilot.svg" width="100%" alt="Currency Copilot" /></a>
+</p>
 <p align="center">
   <a href="https://github.com/Eric-Souza/job-application-copilot"><img src="assets/project-job-copilot.svg" width="100%" alt="Job Application Copilot" /></a>
 </p>
