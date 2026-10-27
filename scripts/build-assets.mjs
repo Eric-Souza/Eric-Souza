@@ -253,6 +253,14 @@ const projects = [
     tags: ["Python", "LangGraph", "FastAPI", "Gemini", "pgvector", "Postgres", "React", "TypeScript"],
   },
   {
+    file: "project-profile-mcp",
+    kind: "MCP · AI Tooling",
+    title: "Profile MCP Server",
+    repo: "Eric-Souza/profile-mcp-server",
+    desc: "MCP server that gives AI assistants live access to my GitHub projects, Medium articles, and work experience, over stdio or HTTP. It also feeds the Job Application Copilot.",
+    tags: ["TypeScript", "Node.js", "MCP SDK", "Zod", "Vitest"],
+  },
+  {
     file: "project-gemini-rag",
     kind: "RAG · Document AI",
     title: "Gemini RAG Doc Processing",

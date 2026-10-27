@@ -29,6 +29,9 @@
   <a href="https://github.com/Eric-Souza/job-application-copilot"><img src="assets/project-job-copilot.svg" width="100%" alt="Job Application Copilot" /></a>
 </p>
 <p align="center">
+  <a href="https://github.com/Eric-Souza/profile-mcp-server"><img src="assets/project-profile-mcp.svg" width="100%" alt="Profile MCP Server" /></a>
+</p>
+<p align="center">
   <a href="https://github.com/Eric-Souza/gemini-rag-doc-processing"><img src="assets/project-gemini-rag.svg" width="100%" alt="Gemini RAG Doc Processing" /></a>
 </p>
 <p align="center">
