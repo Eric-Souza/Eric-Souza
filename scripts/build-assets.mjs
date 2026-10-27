@@ -245,6 +245,14 @@ for (const [name, label] of [
 // ---------- Projects ----------
 const projects = [
   {
+    file: "project-job-copilot",
+    kind: "LLM Agent · RAG",
+    title: "Job Application Copilot",
+    repo: "Eric-Souza/job-application-copilot",
+    desc: "LangGraph agent that tailors a resume to a job posting. Every bullet cites resume evidence, and a person reviews the draft before it's final. Streams each step to a React UI.",
+    tags: ["Python", "LangGraph", "FastAPI", "Gemini", "pgvector", "Postgres", "React", "TypeScript"],
+  },
+  {
     file: "project-gemini-rag",
     kind: "RAG · Document AI",
     title: "Gemini RAG Doc Processing",
