@@ -26,6 +26,9 @@
 ### AI Projects
 
 <p align="center">
+  <a href="https://github.com/Eric-Souza/renda-fixa-copilot"><img src="assets/project-renda-fixa-copilot.svg" width="100%" alt="Renda Fixa Copilot" /></a>
+</p>
+<p align="center">
   <a href="https://github.com/Eric-Souza/currency-copilot"><img src="assets/project-currency-copilot.svg" width="100%" alt="Currency Copilot" /></a>
 </p>
 <p align="center">
