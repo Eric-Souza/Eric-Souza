@@ -26,6 +26,9 @@
 ### AI Projects
 
 <p align="center">
+  <a href="https://github.com/Eric-Souza/voice-receptionist-copilot"><img src="assets/project-voice-receptionist-copilot.svg" width="100%" alt="Voice Receptionist Copilot" /></a>
+</p>
+<p align="center">
   <a href="https://github.com/Eric-Souza/doc-extraction-copilot"><img src="assets/project-doc-extraction-copilot.svg" width="100%" alt="Doc Extraction Copilot" /></a>
 </p>
 <p align="center">
