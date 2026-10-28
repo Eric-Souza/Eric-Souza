@@ -56,6 +56,16 @@
   <a href="https://github.com/Eric-Souza/therapy-session-review-test"><img src="assets/project-lakeside.svg" width="100%" alt="Lakeside Session Review Console" /></a>
 </p>
 
+### Latest Articles
+
+- [I built a voice receptionist you can interrupt, on a free stack](https://blog.devgenius.io/i-built-a-voice-receptionist-you-can-interrupt-on-a-free-stack-4f48b16a13ab) · *Dev Genius*
+- [Close enough isn’t good enough: teaching an AI assistant to find the exact answer](https://blog.devgenius.io/close-enough-isnt-good-enough-teaching-an-ai-assistant-to-find-the-exact-answer-1d127caad4b7) · *Dev Genius*
+- [I built an AI that tailors my resume, then spent most of the time stopping it from making things up](https://blog.devgenius.io/i-built-an-ai-that-tailors-my-resume-then-spent-most-of-the-time-stopping-it-from-making-things-up-fbbee576a9ad) · *Dev Genius*
+- [How do you know your AI assistant didn’t get worse? Grading every change automatically](https://blog.stackademic.com/how-do-you-know-your-ai-assistant-didnt-get-worse-grading-every-change-automatically-155bbbaa024d) · *Stackademic*
+- [I built a daily email that finds the best Brazilian CDBs, and checks the AI before trusting it](https://blog.devgenius.io/i-built-a-daily-email-that-finds-the-best-brazilian-cdbs-and-checks-the-ai-before-trusting-it-e74e4747d163) · *Dev Genius*
+
+<sub>More on <a href="https://medium.com/@eric.bh18souza">Medium</a></sub>
+
 ### Most Used Languages
 
 <p align="center">
