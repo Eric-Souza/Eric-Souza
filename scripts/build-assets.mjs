@@ -217,14 +217,14 @@ for (const [name, label] of [
 {
   // Same groups as the portfolio's src/data/skills.ts
   const groups = [
-    ["frontend", ["JavaScript", "TypeScript", "React", "Next.js", "Material UI", "Bootstrap", "Redux", "Framer Motion", "HTML/CSS", "HTML Email", "Styled Components", "Tailwind CSS", "TanStack Query"]],
-    ["backend", ["Node.js", "NestJS", "Express", "Python", "FastAPI", "Flask", "RESTful APIs", "WebSockets"]],
-    ["ai_engineering", ["LLMs", "Vision Models", "OpenAI", "Google Gemini", "Amazon Bedrock", "Groq", "LiteLLM", "RAG", "AI Agents", "Agentic RAG", "Tool Calling", "Voice Agents", "Whisper", "Kokoro TTS", "Silero VAD", "LangChain", "LangGraph", "LlamaIndex", "LlamaIndex Workflows", "Vercel AI SDK", "MCP", "RAGAS", "Langfuse", "Arize Phoenix", "OpenInference", "LLM Evals", "Golden-Set Evals", "NeMo Guardrails", "Prompt Guard", "Hugging Face Embeddings", "Document Processing", "Structured Output", "fal.ai", "nano-banana"]],
+    ["frontend", ["JavaScript", "TypeScript", "React", "Next.js", "React Native", "Expo", "Material UI", "Bootstrap", "Redux", "Zustand", "Framer Motion", "HTML/CSS", "HTML Email", "Styled Components", "Tailwind CSS", "TanStack Query"]],
+    ["backend", ["Node.js", "NestJS", "Express", "Python", "FastAPI", "Flask", "RESTful APIs", "WebSockets", "SSE", "Pydantic", "Zod"]],
+    ["ai_engineering", ["LLMs", "Vision Models", "OpenAI", "Google Gemini", "Amazon Bedrock", "Groq", "LiteLLM", "Ollama", "vLLM", "RAG", "AI Agents", "Agentic RAG", "Hybrid Search + Reranking", "Tool Calling", "Voice Agents", "Whisper", "Kokoro TTS", "Silero VAD", "LangChain", "LangGraph", "LlamaIndex", "LlamaIndex Workflows", "Vercel AI SDK", "Generative UI", "MCP", "RAGAS", "Langfuse", "Arize Phoenix", "OpenTelemetry", "OpenInference", "LLM Evals", "Golden-Set Evals", "NeMo Guardrails", "Prompt Guard", "Prompt Injection Defense", "Hugging Face Embeddings", "Document Processing", "Structured Output", "fal.ai", "nano-banana"]],
     ["ai_tools", ["Cursor", "Claude", "Claude Code", "ChatGPT", "Cursor Bugbot", "AI-Assisted Development"]],
     ["cloud_devops", ["AWS (S3, EC2, RDS, Lambda, CloudFront, ACM, IAM, Bedrock)", "GCP (Cloud Run, Cloud SQL, Pub/Sub, API Gateway)", "Azure (Blob)", "Terraform", "Docker", "Kubernetes", "GitHub Actions", "CI/CD", "Vercel", "Datadog"]],
     ["architecture", ["Microservices", "Service-Oriented Architecture", "Apache Kafka", "Event-Driven Systems", "System Design"]],
-    ["data", ["PostgreSQL", "pgvector", "Chroma", "Pinecone", "Neon", "DynamoDB", "MongoDB", "SQLite", "Redis", "TypeORM", "Sequelize", "Mongoose", "Prisma", "Drizzle", "dbt"]],
-    ["testing_quality", ["Jest", "Vitest", "Playwright", "pytest", "Code Review", "E2E Testing"]],
+    ["data", ["PostgreSQL", "pgvector", "Chroma", "Pinecone", "Neon", "DynamoDB", "MongoDB", "SQLite", "Redis", "TypeORM", "Sequelize", "Mongoose", "Prisma", "Drizzle", "SQLAlchemy", "dbt"]],
+    ["testing_quality", ["Jest", "Vitest", "React Testing Library", "MSW", "Playwright", "pytest", "Code Review", "E2E Testing"]],
     ["tools_practices", ["Git", "GitHub", "Jira", "Linear", "Shortcut", "Google Analytics 4", "Agile", "Technical Documentation"]],
   ];
   const PAD = 32;
