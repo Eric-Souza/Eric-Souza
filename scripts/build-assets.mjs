@@ -1,4 +1,5 @@
-// Generates the SVG cards used by README.md. Run: node scripts/build-assets.mjs
+// Generates the SVG cards used by README.md. Run: node scripts/build-assets.mjs [file.svg ...]
+// With file names, only those cards are written, so the others keep their committed numbers.
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const OUT = new URL("../assets/", import.meta.url);
@@ -43,7 +44,11 @@ ${body}
 </svg>
 `;
 
-const write = (name, content) => writeFileSync(new URL(name, OUT), content);
+const ONLY = process.argv.slice(2);
+const write = (name, content) => {
+  if (ONLY.length && !ONLY.includes(name)) return;
+  writeFileSync(new URL(name, OUT), content);
+};
 
 // Wraps text into lines that fit maxWidth, using an estimated advance per character.
 function wrap(text, maxWidth, fontSize, ch = SANS_CH) {
@@ -116,8 +121,8 @@ function wrapRich(text, maxWidth, fontSize, ch = 0.5) {
 
 // ---------- About ----------
 const ABOUT = [
-  "Owning and developing products from **architecture** to **production** for **8+ years**, across **legal-tech**, **healthcare**, **fintech**, **e-commerce**, and **AI**.",
-  "I'm fluent in both **web** and **AI**. I build everything from **complex UIs** to integrated **REST APIs** with **React**, **Node**, and **Python**, and AI features from **document processing** and **image generation** to **prompt optimization**, using **LLMs** and **RAG**.",
+  "Owning and developing products from **architecture** to **production** for **8+ years**, across **legal-tech**, **healthcare**, **fintech**, **e-commerce**, **AI**, and more.",
+  "I'm fluent in both **web** and **AI**. I build everything from **complex UIs** to integrated **REST APIs** with **React**, **Node**, and **Python**, and AI features from **document processing** and **image generation** to **prompt optimization**, using **LLMs**, **RAG**, and **agents**, measured with **evals** and **tracing**.",
   "I also own what surrounds the code: **system design**, **CI/CD**, and **cloud infrastructure** on **AWS** and **GCP**. I've led teams, set code and delivery standards, and I work directly with clients to turn what they need into features that ship.",
 ];
 {
@@ -210,15 +215,16 @@ for (const [name, label] of [
 
 // ---------- Skills ----------
 {
+  // Same groups as the portfolio's src/data/skills.ts
   const groups = [
-    ["frontend", ["JavaScript", "TypeScript", "React", "Next.js", "Material UI", "Bootstrap", "Redux", "Framer Motion", "HTML/CSS", "Styled Components", "Tailwind CSS", "TanStack Query"]],
+    ["frontend", ["JavaScript", "TypeScript", "React", "Next.js", "Material UI", "Bootstrap", "Redux", "Framer Motion", "HTML/CSS", "HTML Email", "Styled Components", "Tailwind CSS", "TanStack Query"]],
     ["backend", ["Node.js", "NestJS", "Express", "Python", "FastAPI", "Flask", "RESTful APIs", "WebSockets"]],
-    ["ai_engineering", ["AI Integrations", "LLMs", "OpenAI", "Amazon Bedrock", "LiteLLM", "RAG", "LangChain", "FastAPI", "Document Processing", "fal.ai", "nano-banana"]],
+    ["ai_engineering", ["LLMs", "Vision Models", "OpenAI", "Google Gemini", "Amazon Bedrock", "Groq", "LiteLLM", "RAG", "AI Agents", "Agentic RAG", "Tool Calling", "Voice Agents", "Whisper", "Kokoro TTS", "Silero VAD", "LangChain", "LangGraph", "LlamaIndex", "LlamaIndex Workflows", "Vercel AI SDK", "MCP", "RAGAS", "Langfuse", "Arize Phoenix", "OpenInference", "LLM Evals", "Golden-Set Evals", "Hugging Face Embeddings", "Document Processing", "Structured Output", "fal.ai", "nano-banana"]],
     ["ai_tools", ["Cursor", "Claude", "Claude Code", "ChatGPT", "Cursor Bugbot", "AI-Assisted Development"]],
-    ["cloud_devops", ["AWS (S3, EC2, RDS, Lambda, CloudFront, ACM, IAM, Bedrock)", "GCP (Cloud Run, Cloud SQL, Pub/Sub, API Gateway)", "Azure (Blob)", "Terraform", "Docker", "Kubernetes", "GitHub Actions", "CI/CD", "Datadog"]],
+    ["cloud_devops", ["AWS (S3, EC2, RDS, Lambda, CloudFront, ACM, IAM, Bedrock)", "GCP (Cloud Run, Cloud SQL, Pub/Sub, API Gateway)", "Azure (Blob)", "Terraform", "Docker", "Kubernetes", "GitHub Actions", "CI/CD", "Vercel", "Datadog"]],
     ["architecture", ["Microservices", "Service-Oriented Architecture", "Apache Kafka", "Event-Driven Systems", "System Design"]],
-    ["data", ["PostgreSQL", "DynamoDB", "MongoDB", "SQLite", "Redis", "TypeORM", "Sequelize", "Mongoose", "Prisma", "dbt"]],
-    ["testing_quality", ["Jest", "Vitest", "Code Review", "E2E Testing"]],
+    ["data", ["PostgreSQL", "pgvector", "Chroma", "Pinecone", "Neon", "DynamoDB", "MongoDB", "SQLite", "Redis", "TypeORM", "Sequelize", "Mongoose", "Prisma", "Drizzle", "dbt"]],
+    ["testing_quality", ["Jest", "Vitest", "Playwright", "pytest", "Code Review", "E2E Testing"]],
     ["tools_practices", ["Git", "GitHub", "Jira", "Linear", "Shortcut", "Google Analytics 4", "Agile", "Technical Documentation"]],
   ];
   const PAD = 32;
@@ -243,9 +249,20 @@ for (const [name, label] of [
 }
 
 // ---------- Projects ----------
+// n is the card's number in README.md's order; cards 02-05 were made outside this script.
 const projects = [
   {
+    file: "project-irpf-copilot",
+    n: 1,
+    kind: "Agentic RAG · Evals",
+    title: "IRPF Copilot",
+    repo: "Eric-Souza/irpf-copilot",
+    desc: "Agent over the Receita Federal's IRPF tax manual that follows its \"Consulte a pergunta\" references, cites the questions it used, and is measured against plain RAG on a 76-question golden set.",
+    tags: ["Python", "LlamaIndex", "Gemini", "Chroma", "Pinecone", "Arize Phoenix", "pytest"],
+  },
+  {
     file: "project-job-copilot",
+    n: 6,
     kind: "LLM Agent · RAG",
     title: "Job Application Copilot",
     repo: "Eric-Souza/job-application-copilot",
@@ -254,6 +271,7 @@ const projects = [
   },
   {
     file: "project-profile-mcp",
+    n: 7,
     kind: "MCP · AI Tooling",
     title: "Profile MCP Server",
     repo: "Eric-Souza/profile-mcp-server",
@@ -262,6 +280,7 @@ const projects = [
   },
   {
     file: "project-gemini-rag",
+    n: 8,
     kind: "RAG · Document AI",
     title: "Gemini RAG Doc Processing",
     repo: "Eric-Souza/gemini-rag-doc-processing",
@@ -270,6 +289,7 @@ const projects = [
   },
   {
     file: "project-travel-planner",
+    n: 9,
     kind: "RAG · Local LLM · Mobile",
     title: "Travel Planner",
     repo: "Eric-Souza/travel-planner-api",
@@ -278,6 +298,7 @@ const projects = [
   },
   {
     file: "project-dispatchbot",
+    n: 10,
     kind: "LLM Agent",
     title: "DispatchBot",
     repo: "Eric-Souza/job-dispatch-bot",
@@ -286,6 +307,7 @@ const projects = [
   },
   {
     file: "project-lakeside",
+    n: 11,
     kind: "Healthcare · Full Stack",
     title: "Lakeside Session Review Console",
     repo: "Eric-Souza/therapy-session-review-test",
@@ -294,11 +316,11 @@ const projects = [
   },
 ];
 
-projects.forEach((p, i) => {
+projects.forEach((p) => {
   const PAD = 36;
   const innerW = W - PAD * 2;
   let inner = "";
-  inner += `<text x="${PAD}" y="42" class="mono" font-size="12" fill="${C.green}">${String(i + 1).padStart(2, "0")}<tspan fill="${C.muted}" dx="10">// ${esc(p.kind)}</tspan></text>`;
+  inner += `<text x="${PAD}" y="42" class="mono" font-size="12" fill="${C.green}">${String(p.n).padStart(2, "0")}<tspan fill="${C.muted}" dx="10">// ${esc(p.kind)}</tspan></text>`;
   inner += `<text x="${W - PAD}" y="42" class="mono" font-size="12" fill="${C.muted}" text-anchor="end">${esc(p.repo)} <tspan fill="${C.blue}">↗</tspan></text>`;
   inner += `<text x="${PAD}" y="80" class="sans" font-size="24" font-weight="700" fill="${C.text}">${esc(p.title)}</text>`;
   let y = 112;
