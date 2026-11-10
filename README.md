@@ -26,22 +26,28 @@
 ### AI Projects
 
 <p align="center">
+  <a href="https://github.com/Eric-Souza/agent-frameworks-bakeoff"><img src="assets/project-agent-frameworks-bakeoff.svg" width="100%" alt="Agent Frameworks Bakeoff" /></a>
+</p>
+<p align="center">
+  <a href="https://github.com/Eric-Souza/doc-extraction-finetune"><img src="assets/project-doc-extraction-finetune.svg" width="100%" alt="Doc Extraction Fine-tune" /></a>
+</p>
+<p align="center">
   <a href="https://github.com/Eric-Souza/irs-copilot"><img src="assets/project-irs-copilot.svg" width="100%" alt="IRS Copilot" /></a>
 </p>
 <p align="center">
   <a href="https://github.com/Eric-Souza/irpf-copilot"><img src="assets/project-irpf-copilot.svg" width="100%" alt="IRPF Copilot" /></a>
 </p>
+
+<details>
+<summary><b>See 10 more AI projects</b></summary>
+<br/>
+
 <p align="center">
   <a href="https://github.com/Eric-Souza/voice-receptionist-copilot"><img src="assets/project-voice-receptionist-copilot.svg" width="100%" alt="Voice Receptionist Copilot" /></a>
 </p>
 <p align="center">
   <a href="https://github.com/Eric-Souza/doc-extraction-copilot"><img src="assets/project-doc-extraction-copilot.svg" width="100%" alt="Doc Extraction Copilot" /></a>
 </p>
-
-<details>
-<summary><b>See 8 more AI projects</b></summary>
-<br/>
-
 <p align="center">
   <a href="https://github.com/Eric-Souza/renda-fixa-copilot"><img src="assets/project-renda-fixa-copilot.svg" width="100%" alt="Renda Fixa Copilot" /></a>
 </p>

@@ -122,7 +122,7 @@ function wrapRich(text, maxWidth, fontSize, ch = 0.5) {
 // ---------- About ----------
 const ABOUT = [
   "Owning and developing products from **architecture** to **production** for **8+ years**, across **legal-tech**, **healthcare**, **fintech**, **e-commerce**, **AI**, and more.",
-  "I'm fluent in both **web** and **AI**. I build everything from **complex UIs** to integrated **REST APIs** with **React**, **Node**, and **Python**, and AI features from **document processing**, **image generation**, and **voice agents** to **prompt optimization**, using **LLMs**, **RAG**, and **agents**, with **evals**, **tracing**, and **guardrails**.",
+  "I'm fluent in both **web** and **AI**. I build everything from **complex UIs** to integrated **REST APIs** with **React**, **Node**, and **Python**, and AI features from **document processing**, **image generation**, and **voice agents** to **prompt optimization**, using **LLMs**, **RAG**, **agents**, **multi-agent systems**, and **fine-tuned small models**, with **evals**, **tracing**, and **guardrails**.",
   "I also own what surrounds the code: **system design**, **CI/CD**, and **cloud infrastructure** on **AWS** and **GCP**. I've led teams, set code and delivery standards, and I work directly with clients to turn what they need into features that ship.",
 ];
 {
@@ -219,11 +219,11 @@ for (const [name, label] of [
   const groups = [
     ["frontend", ["JavaScript", "TypeScript", "React", "Next.js", "React Native", "Expo", "Material UI", "Bootstrap", "Redux", "Zustand", "Framer Motion", "HTML/CSS", "HTML Email", "Styled Components", "Tailwind CSS", "TanStack Query"]],
     ["backend", ["Node.js", "NestJS", "Express", "Python", "FastAPI", "Flask", "RESTful APIs", "WebSockets", "SSE", "Pydantic", "Zod"]],
-    ["ai_engineering", ["LLMs", "Vision Models", "OpenAI", "Google Gemini", "Amazon Bedrock", "Groq", "LiteLLM", "Ollama", "vLLM", "RAG", "AI Agents", "Agentic RAG", "Hybrid Search + Reranking", "Tool Calling", "Voice Agents", "Whisper", "Kokoro TTS", "Silero VAD", "LangChain", "LangGraph", "LlamaIndex", "LlamaIndex Workflows", "Vercel AI SDK", "Generative UI", "MCP", "RAGAS", "Langfuse", "Arize Phoenix", "OpenTelemetry", "OpenInference", "LLM Evals", "Golden-Set Evals", "NeMo Guardrails", "Prompt Guard", "Prompt Injection Defense", "Hugging Face Embeddings", "Document Processing", "Structured Output", "fal.ai", "nano-banana"]],
+    ["ai_engineering", ["LLMs", "Vision Models", "OpenAI", "Google Gemini", "Amazon Bedrock", "Groq", "LiteLLM", "Ollama", "vLLM", "RAG", "AI Agents", "Multi-Agent Systems", "Agentic RAG", "Hybrid Search + Reranking", "Tool Calling", "Voice Agents", "Whisper", "Kokoro TTS", "Silero VAD", "LangChain", "LangGraph", "LlamaIndex", "LlamaIndex Workflows", "CrewAI", "AutoGen", "Vercel AI SDK", "Generative UI", "MCP", "RAGAS", "TruLens", "Langfuse", "Arize Phoenix", "OpenTelemetry", "OpenInference", "LLM Evals", "Golden-Set Evals", "NeMo Guardrails", "Guardrails AI", "Prompt Guard", "Prompt Injection Defense", "Hugging Face Embeddings", "Fine-tuning (QLoRA, LoRA)", "Unsloth", "Hugging Face Hub", "llama.cpp (GGUF)", "Document Processing", "Structured Output", "fal.ai", "nano-banana"]],
     ["ai_tools", ["Cursor", "Claude", "Claude Code", "ChatGPT", "Cursor Bugbot", "AI-Assisted Development"]],
     ["cloud_devops", ["AWS (S3, EC2, RDS, Lambda, CloudFront, ACM, IAM, Bedrock)", "GCP (Cloud Run, Cloud SQL, Pub/Sub, API Gateway)", "Azure (Blob)", "Terraform", "Docker", "Kubernetes", "GitHub Actions", "CI/CD", "Vercel", "Datadog"]],
     ["architecture", ["Microservices", "Service-Oriented Architecture", "Apache Kafka", "Event-Driven Systems", "System Design"]],
-    ["data", ["PostgreSQL", "pgvector", "Chroma", "Pinecone", "Neon", "DynamoDB", "MongoDB", "SQLite", "Redis", "TypeORM", "Sequelize", "Mongoose", "Prisma", "Drizzle", "SQLAlchemy", "dbt"]],
+    ["data", ["PostgreSQL", "pgvector", "Chroma", "Pinecone", "Qdrant", "Neon", "DynamoDB", "MongoDB", "SQLite", "Redis", "TypeORM", "Sequelize", "Mongoose", "Prisma", "Drizzle", "SQLAlchemy", "dbt"]],
     ["testing_quality", ["Jest", "Vitest", "React Testing Library", "MSW", "Playwright", "pytest", "Code Review", "E2E Testing"]],
     ["tools_practices", ["Git", "GitHub", "Jira", "Linear", "Shortcut", "Google Analytics 4", "Agile", "Technical Documentation"]],
   ];
@@ -249,11 +249,29 @@ for (const [name, label] of [
 }
 
 // ---------- Projects ----------
-// n is the card's number in README.md's order; cards 03-06 were made outside this script.
+// n is the card's number in README.md's order; cards 05-08 were made outside this script.
 const projects = [
   {
-    file: "project-irs-copilot",
+    file: "project-agent-frameworks-bakeoff",
     n: 1,
+    kind: "Multi-Agent · Evals",
+    title: "Agent Frameworks Bakeoff",
+    repo: "Eric-Souza/agent-frameworks-bakeoff",
+    desc: "The same two-agent refund desk built in CrewAI, AutoGen and LangGraph, on the same model, prompts and tools, graded on 24 cases and traced in Phoenix, to see how each one fails.",
+    tags: ["Python", "CrewAI", "AutoGen", "LangGraph", "Groq", "Arize Phoenix", "pytest"],
+  },
+  {
+    file: "project-doc-extraction-finetune",
+    n: 2,
+    kind: "Fine-tuning · Vision",
+    title: "Doc Extraction Fine-tune",
+    repo: "Eric-Souza/doc-extraction-finetune",
+    desc: "QLoRA fine-tune of a 2B vision model with Unsloth that reads Brazilian financial documents at 99.7% of fields against Gemini's 99.9%, trained in 20 minutes on an 8 GB GPU and published on Hugging Face.",
+    tags: ["Python", "Unsloth", "QLoRA", "Qwen", "Hugging Face", "llama.cpp", "Ollama"],
+  },
+  {
+    file: "project-irs-copilot",
+    n: 3,
     kind: "Agentic RAG · Evals",
     title: "IRS Copilot",
     repo: "Eric-Souza/irs-copilot",
@@ -262,7 +280,7 @@ const projects = [
   },
   {
     file: "project-irpf-copilot",
-    n: 2,
+    n: 4,
     kind: "Agentic RAG · Evals",
     title: "IRPF Copilot",
     repo: "Eric-Souza/irpf-copilot",
@@ -271,7 +289,7 @@ const projects = [
   },
   {
     file: "project-job-copilot",
-    n: 7,
+    n: 9,
     kind: "LLM Agent · RAG",
     title: "Job Application Copilot",
     repo: "Eric-Souza/job-application-copilot",
@@ -280,7 +298,7 @@ const projects = [
   },
   {
     file: "project-profile-mcp",
-    n: 8,
+    n: 10,
     kind: "MCP · AI Tooling",
     title: "Profile MCP Server",
     repo: "Eric-Souza/profile-mcp-server",
@@ -289,16 +307,16 @@ const projects = [
   },
   {
     file: "project-gemini-rag",
-    n: 9,
+    n: 11,
     kind: "RAG · Document AI",
     title: "Gemini RAG Doc Processing",
     repo: "Eric-Souza/gemini-rag-doc-processing",
-    desc: "Upload documents and chat with them. Embeds with Google Gemini, retrieves with Chroma, and orchestrates answers with LangChain and LangGraph.",
-    tags: ["Python", "FastAPI", "LangChain", "LangGraph", "Gemini", "Chroma", "React", "TypeScript"],
+    desc: "Upload documents and chat with them, with cited answers. Hybrid search and a reranker on pgvector or Qdrant, and RAGAS and TruLens evals as a quality gate in CI.",
+    tags: ["Python", "FastAPI", "LangGraph", "Gemini", "pgvector", "Qdrant", "RAGAS", "TruLens", "React"],
   },
   {
     file: "project-travel-planner",
-    n: 10,
+    n: 12,
     kind: "RAG · Local LLM · Mobile",
     title: "Travel Planner",
     repo: "Eric-Souza/travel-planner-api",
@@ -307,7 +325,7 @@ const projects = [
   },
   {
     file: "project-dispatchbot",
-    n: 11,
+    n: 13,
     kind: "LLM Agent",
     title: "DispatchBot",
     repo: "Eric-Souza/job-dispatch-bot",
@@ -316,7 +334,7 @@ const projects = [
   },
   {
     file: "project-lakeside",
-    n: 12,
+    n: 14,
     kind: "Healthcare · Full Stack",
     title: "Lakeside Session Review Console",
     repo: "Eric-Souza/therapy-session-review-test",
