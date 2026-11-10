@@ -12,7 +12,7 @@
 <br/>
 
 <p align="center">
-  <img src="assets/about.svg" width="100%" alt="Owning and developing products from architecture to production for 8+ years, across legal-tech, healthcare, fintech, e-commerce, AI, and more. I'm fluent in both web and AI. I build everything from complex UIs to integrated REST APIs with React, Node, and Python, and AI features from document processing and image generation to prompt optimization, using LLMs, RAG, and agents, measured with evals and tracing. I also own what surrounds the code: system design, CI/CD, and cloud infrastructure on AWS and GCP. I've led teams, set code and delivery standards, and I work directly with clients to turn what they need into features that ship." />
+  <img src="assets/about.svg" width="100%" alt="Owning and developing products from architecture to production for 8+ years, across legal-tech, healthcare, fintech, e-commerce, AI, and more. I'm fluent in both web and AI. I build everything from complex UIs to integrated REST APIs with React, Node, and Python, and AI features from document processing, image generation, and voice agents to prompt optimization, using LLMs, RAG, and agents, with evals, tracing, and guardrails. I also own what surrounds the code: system design, CI/CD, and cloud infrastructure on AWS and GCP. I've led teams, set code and delivery standards, and I work directly with clients to turn what they need into features that ship." />
 </p>
 
 <p align="center">
@@ -26,6 +26,9 @@
 ### AI Projects
 
 <p align="center">
+  <a href="https://github.com/Eric-Souza/irs-copilot"><img src="assets/project-irs-copilot.svg" width="100%" alt="IRS Copilot" /></a>
+</p>
+<p align="center">
   <a href="https://github.com/Eric-Souza/irpf-copilot"><img src="assets/project-irpf-copilot.svg" width="100%" alt="IRPF Copilot" /></a>
 </p>
 <p align="center">
@@ -34,14 +37,14 @@
 <p align="center">
   <a href="https://github.com/Eric-Souza/doc-extraction-copilot"><img src="assets/project-doc-extraction-copilot.svg" width="100%" alt="Doc Extraction Copilot" /></a>
 </p>
+
+<details>
+<summary><b>See 8 more AI projects</b></summary>
+<br/>
+
 <p align="center">
   <a href="https://github.com/Eric-Souza/renda-fixa-copilot"><img src="assets/project-renda-fixa-copilot.svg" width="100%" alt="Renda Fixa Copilot" /></a>
 </p>
-
-<details>
-<summary><b>See 7 more AI projects</b></summary>
-<br/>
-
 <p align="center">
   <a href="https://github.com/Eric-Souza/currency-copilot"><img src="assets/project-currency-copilot.svg" width="100%" alt="Currency Copilot" /></a>
 </p>
@@ -69,72 +72,78 @@
 ### Publications
 
 <p align="center">
-  <a href="https://medium.com/@eric.bh18souza/an-agent-for-the-brazilian-tax-manual-that-rarely-needed-to-be-one-2bb598629a64"><img src="assets/article-01.svg" width="100%" alt="An agent for the Brazilian tax manual that rarely needed to be one" /></a>
+  <a href="https://medium.com/@eric.bh18souza/an-agent-that-reads-irs-publication-17-and-the-cross-references-it-chose-not-to-follow-39c37706dd43"><img src="assets/article-01.svg" width="100%" alt="An agent that reads IRS Publication 17, and the cross-references it chose not to follow" /></a>
 </p>
 <p align="center">
-  <a href="https://blog.devgenius.io/i-built-a-voice-receptionist-you-can-interrupt-on-a-free-stack-4f48b16a13ab"><img src="assets/article-02.svg" width="100%" alt="I built a voice receptionist you can interrupt, on a free stack" /></a>
+  <a href="https://medium.com/@eric.bh18souza/putting-guardrails-on-a-voice-agent-without-breaking-the-latency-budget-f13aa86fb2fd"><img src="assets/article-02.svg" width="100%" alt="Putting guardrails on a voice agent without breaking the latency budget" /></a>
 </p>
 <p align="center">
-  <a href="https://blog.devgenius.io/close-enough-isnt-good-enough-teaching-an-ai-assistant-to-find-the-exact-answer-1d127caad4b7"><img src="assets/article-03.svg" width="100%" alt="Close enough isn’t good enough: teaching an AI assistant to find the exact answer" /></a>
+  <a href="https://medium.com/@eric.bh18souza/an-agent-for-the-brazilian-tax-manual-that-rarely-needed-to-be-one-2bb598629a64"><img src="assets/article-03.svg" width="100%" alt="An agent for the Brazilian tax manual that rarely needed to be one" /></a>
 </p>
 
 <details>
-<summary><b>See 18 more publications</b></summary>
+<summary><b>See 20 more publications</b></summary>
 <br/>
 
 <p align="center">
-  <a href="https://blog.devgenius.io/i-built-an-ai-that-tailors-my-resume-then-spent-most-of-the-time-stopping-it-from-making-things-up-fbbee576a9ad"><img src="assets/article-04.svg" width="100%" alt="I built an AI that tailors my resume, then spent most of the time stopping it from making things up" /></a>
+  <a href="https://blog.devgenius.io/i-built-a-voice-receptionist-you-can-interrupt-on-a-free-stack-4f48b16a13ab"><img src="assets/article-04.svg" width="100%" alt="I built a voice receptionist you can interrupt, on a free stack" /></a>
 </p>
 <p align="center">
-  <a href="https://blog.stackademic.com/how-do-you-know-your-ai-assistant-didnt-get-worse-grading-every-change-automatically-155bbbaa024d"><img src="assets/article-05.svg" width="100%" alt="How do you know your AI assistant didn’t get worse? Grading every change automatically" /></a>
+  <a href="https://blog.devgenius.io/close-enough-isnt-good-enough-teaching-an-ai-assistant-to-find-the-exact-answer-1d127caad4b7"><img src="assets/article-05.svg" width="100%" alt="Close enough isn’t good enough: teaching an AI assistant to find the exact answer" /></a>
 </p>
 <p align="center">
-  <a href="https://blog.devgenius.io/i-built-a-daily-email-that-finds-the-best-brazilian-cdbs-and-checks-the-ai-before-trusting-it-e74e4747d163"><img src="assets/article-06.svg" width="100%" alt="I built a daily email that finds the best Brazilian CDBs, and checks the AI before trusting it" /></a>
+  <a href="https://blog.devgenius.io/i-built-an-ai-that-tailors-my-resume-then-spent-most-of-the-time-stopping-it-from-making-things-up-fbbee576a9ad"><img src="assets/article-06.svg" width="100%" alt="I built an AI that tailors my resume, then spent most of the time stopping it from making things up" /></a>
 </p>
 <p align="center">
-  <a href="https://blog.devgenius.io/i-built-a-vision-ai-that-reads-brazilian-boletos-and-invoices-and-code-that-checks-every-digit-it-22b4b8ce2cc2"><img src="assets/article-07.svg" width="100%" alt="I built a vision AI that reads Brazilian boletos and invoices, and code that checks every digit it reads" /></a>
+  <a href="https://blog.stackademic.com/how-do-you-know-your-ai-assistant-didnt-get-worse-grading-every-change-automatically-155bbbaa024d"><img src="assets/article-07.svg" width="100%" alt="How do you know your AI assistant didn’t get worse? Grading every change automatically" /></a>
 </p>
 <p align="center">
-  <a href="https://blog.stackademic.com/i-built-a-currency-chat-where-the-answers-are-charts-not-paragraphs-58e74327b22f"><img src="assets/article-08.svg" width="100%" alt="I built a currency chat where the answers are charts, not paragraphs" /></a>
+  <a href="https://blog.devgenius.io/i-built-a-daily-email-that-finds-the-best-brazilian-cdbs-and-checks-the-ai-before-trusting-it-e74e4747d163"><img src="assets/article-08.svg" width="100%" alt="I built a daily email that finds the best Brazilian CDBs, and checks the AI before trusting it" /></a>
 </p>
 <p align="center">
-  <a href="https://blog.stackademic.com/building-a-daily-usd-brl-exchange-advisor-on-free-infrastructure-6f4753bae25c"><img src="assets/article-09.svg" width="100%" alt="Building a daily USD/BRL exchange advisor on free infrastructure" /></a>
+  <a href="https://blog.devgenius.io/i-built-a-vision-ai-that-reads-brazilian-boletos-and-invoices-and-code-that-checks-every-digit-it-22b4b8ce2cc2"><img src="assets/article-09.svg" width="100%" alt="I built a vision AI that reads Brazilian boletos and invoices, and code that checks every digit it reads" /></a>
 </p>
 <p align="center">
-  <a href="https://blog.stackademic.com/building-a-grounded-document-q-a-app-with-gemini-langgraph-and-chroma-07a1b230b9d5"><img src="assets/article-10.svg" width="100%" alt="Building a Grounded Document Q&amp;A App with Gemini, LangGraph, and Chroma" /></a>
+  <a href="https://blog.stackademic.com/i-built-a-currency-chat-where-the-answers-are-charts-not-paragraphs-58e74327b22f"><img src="assets/article-10.svg" width="100%" alt="I built a currency chat where the answers are charts, not paragraphs" /></a>
 </p>
 <p align="center">
-  <a href="https://blog.stackademic.com/building-a-clinical-session-review-console-where-the-boring-parts-are-the-point-cd3df897e4ae"><img src="assets/article-11.svg" width="100%" alt="Building a clinical session review console where the boring parts are the point" /></a>
+  <a href="https://blog.stackademic.com/building-a-daily-usd-brl-exchange-advisor-on-free-infrastructure-6f4753bae25c"><img src="assets/article-11.svg" width="100%" alt="Building a daily USD/BRL exchange advisor on free infrastructure" /></a>
 </p>
 <p align="center">
-  <a href="https://blog.stackademic.com/llms-propose-python-enforces-building-a-local-first-ai-travel-planner-api-4a1b31aa4b99"><img src="assets/article-12.svg" width="100%" alt="LLMs propose, Python enforces: building a local-first AI travel planner API" /></a>
+  <a href="https://blog.stackademic.com/building-a-grounded-document-q-a-app-with-gemini-langgraph-and-chroma-07a1b230b9d5"><img src="assets/article-12.svg" width="100%" alt="Building a Grounded Document Q&A App with Gemini, LangGraph, and Chroma" /></a>
 </p>
 <p align="center">
-  <a href="https://blog.stackademic.com/building-a-production-style-document-q-a-system-with-gemini-langchain-and-fastapi-97c73b47fd4b"><img src="assets/article-13.svg" width="100%" alt="Building a Production-Style Document Q&amp;A System with Gemini, LangChain, and FastAPI" /></a>
+  <a href="https://blog.stackademic.com/building-a-clinical-session-review-console-where-the-boring-parts-are-the-point-cd3df897e4ae"><img src="assets/article-13.svg" width="100%" alt="Building a clinical session review console where the boring parts are the point" /></a>
 </p>
 <p align="center">
-  <a href="https://blog.stackademic.com/dispatchbot-keeping-ai-conversations-honest-with-server-side-job-validation-70283668f24f"><img src="assets/article-14.svg" width="100%" alt="DispatchBot: Keeping AI Conversations Honest with Server-Side Job Validation" /></a>
+  <a href="https://blog.stackademic.com/llms-propose-python-enforces-building-a-local-first-ai-travel-planner-api-4a1b31aa4b99"><img src="assets/article-14.svg" width="100%" alt="LLMs propose, Python enforces: building a local-first AI travel planner API" /></a>
 </p>
 <p align="center">
-  <a href="https://medium.com/stackademic/building-an-effective-node-api-using-express-and-sequelize-9b875b7d7795"><img src="assets/article-15.svg" width="100%" alt="Building an Effective Node API Using Express and Sequelize" /></a>
+  <a href="https://blog.stackademic.com/building-a-production-style-document-q-a-system-with-gemini-langchain-and-fastapi-97c73b47fd4b"><img src="assets/article-15.svg" width="100%" alt="Building a Production-Style Document Q&A System with Gemini, LangChain, and FastAPI" /></a>
 </p>
 <p align="center">
-  <a href="https://medium.com/remedy-product-studio/understanding-aws-essential-concepts-for-software-engineers-07b114954bd2"><img src="assets/article-16.svg" width="100%" alt="Understanding AWS: Essential Concepts for Software Engineers" /></a>
+  <a href="https://blog.stackademic.com/dispatchbot-keeping-ai-conversations-honest-with-server-side-job-validation-70283668f24f"><img src="assets/article-16.svg" width="100%" alt="DispatchBot: Keeping AI Conversations Honest with Server-Side Job Validation" /></a>
 </p>
 <p align="center">
-  <a href="https://medium.com/remedy-product-studio/mimicking-youtubes-ui-with-react-native-web-a-fully-responsive-video-browsing-app-40a4f5f9244f"><img src="assets/article-17.svg" width="100%" alt="Mimicking YouTube&#x27;s UI with React Native Web: A Fully Responsive Video Browsing App" /></a>
+  <a href="https://medium.com/stackademic/building-an-effective-node-api-using-express-and-sequelize-9b875b7d7795"><img src="assets/article-17.svg" width="100%" alt="Building an Effective Node API Using Express and Sequelize" /></a>
 </p>
 <p align="center">
-  <a href="https://medium.com/remedy-product-studio/building-blocks-of-python-for-web-development-45c078c5f208"><img src="assets/article-18.svg" width="100%" alt="Building Blocks of Python for Web Development" /></a>
+  <a href="https://medium.com/remedy-product-studio/understanding-aws-essential-concepts-for-software-engineers-07b114954bd2"><img src="assets/article-18.svg" width="100%" alt="Understanding AWS: Essential Concepts for Software Engineers" /></a>
 </p>
 <p align="center">
-  <a href="https://medium.com/remedy-product-studio/building-a-secure-and-scalable-back-end-with-nestjs-typescript-and-typeorm-ad8ae5c9c0c0"><img src="assets/article-19.svg" width="100%" alt="Building a Secure and Scalable Back End with NestJS/TypeScript and TypeORM" /></a>
+  <a href="https://medium.com/remedy-product-studio/mimicking-youtubes-ui-with-react-native-web-a-fully-responsive-video-browsing-app-40a4f5f9244f"><img src="assets/article-19.svg" width="100%" alt="Mimicking YouTube's UI with React Native Web: A Fully Responsive Video Browsing App" /></a>
 </p>
 <p align="center">
-  <a href="https://medium.com/remedy-product-studio/building-a-global-github-profile-search-app-with-react-tailwind-css-daisy-ui-and-axios-e854158bb7b2"><img src="assets/article-20.svg" width="100%" alt="Building a Global GitHub Profile Search App with React, Tailwind CSS, Daisy UI and Axios" /></a>
+  <a href="https://medium.com/remedy-product-studio/building-blocks-of-python-for-web-development-45c078c5f208"><img src="assets/article-20.svg" width="100%" alt="Building Blocks of Python for Web Development" /></a>
 </p>
 <p align="center">
-  <a href="https://medium.com/remedy-product-studio/mastering-object-oriented-programming-in-javascript-es2022-a-guide-for-engineers-5a89ebc0996e"><img src="assets/article-21.svg" width="100%" alt="Mastering Object-Oriented Programming in JavaScript ES2022: A Guide for Engineers" /></a>
+  <a href="https://medium.com/remedy-product-studio/building-a-secure-and-scalable-back-end-with-nestjs-typescript-and-typeorm-ad8ae5c9c0c0"><img src="assets/article-21.svg" width="100%" alt="Building a Secure and Scalable Back End with NestJS/TypeScript and TypeORM" /></a>
+</p>
+<p align="center">
+  <a href="https://medium.com/remedy-product-studio/building-a-global-github-profile-search-app-with-react-tailwind-css-daisy-ui-and-axios-e854158bb7b2"><img src="assets/article-22.svg" width="100%" alt="Building a Global GitHub Profile Search App with React, Tailwind CSS, Daisy UI and Axios" /></a>
+</p>
+<p align="center">
+  <a href="https://medium.com/remedy-product-studio/mastering-object-oriented-programming-in-javascript-es2022-a-guide-for-engineers-5a89ebc0996e"><img src="assets/article-23.svg" width="100%" alt="Mastering Object-Oriented Programming in JavaScript ES2022: A Guide for Engineers" /></a>
 </p>
 
 </details>

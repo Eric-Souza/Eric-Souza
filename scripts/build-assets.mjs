@@ -122,7 +122,7 @@ function wrapRich(text, maxWidth, fontSize, ch = 0.5) {
 // ---------- About ----------
 const ABOUT = [
   "Owning and developing products from **architecture** to **production** for **8+ years**, across **legal-tech**, **healthcare**, **fintech**, **e-commerce**, **AI**, and more.",
-  "I'm fluent in both **web** and **AI**. I build everything from **complex UIs** to integrated **REST APIs** with **React**, **Node**, and **Python**, and AI features from **document processing** and **image generation** to **prompt optimization**, using **LLMs**, **RAG**, and **agents**, measured with **evals** and **tracing**.",
+  "I'm fluent in both **web** and **AI**. I build everything from **complex UIs** to integrated **REST APIs** with **React**, **Node**, and **Python**, and AI features from **document processing**, **image generation**, and **voice agents** to **prompt optimization**, using **LLMs**, **RAG**, and **agents**, with **evals**, **tracing**, and **guardrails**.",
   "I also own what surrounds the code: **system design**, **CI/CD**, and **cloud infrastructure** on **AWS** and **GCP**. I've led teams, set code and delivery standards, and I work directly with clients to turn what they need into features that ship.",
 ];
 {
@@ -219,7 +219,7 @@ for (const [name, label] of [
   const groups = [
     ["frontend", ["JavaScript", "TypeScript", "React", "Next.js", "Material UI", "Bootstrap", "Redux", "Framer Motion", "HTML/CSS", "HTML Email", "Styled Components", "Tailwind CSS", "TanStack Query"]],
     ["backend", ["Node.js", "NestJS", "Express", "Python", "FastAPI", "Flask", "RESTful APIs", "WebSockets"]],
-    ["ai_engineering", ["LLMs", "Vision Models", "OpenAI", "Google Gemini", "Amazon Bedrock", "Groq", "LiteLLM", "RAG", "AI Agents", "Agentic RAG", "Tool Calling", "Voice Agents", "Whisper", "Kokoro TTS", "Silero VAD", "LangChain", "LangGraph", "LlamaIndex", "LlamaIndex Workflows", "Vercel AI SDK", "MCP", "RAGAS", "Langfuse", "Arize Phoenix", "OpenInference", "LLM Evals", "Golden-Set Evals", "Hugging Face Embeddings", "Document Processing", "Structured Output", "fal.ai", "nano-banana"]],
+    ["ai_engineering", ["LLMs", "Vision Models", "OpenAI", "Google Gemini", "Amazon Bedrock", "Groq", "LiteLLM", "RAG", "AI Agents", "Agentic RAG", "Tool Calling", "Voice Agents", "Whisper", "Kokoro TTS", "Silero VAD", "LangChain", "LangGraph", "LlamaIndex", "LlamaIndex Workflows", "Vercel AI SDK", "MCP", "RAGAS", "Langfuse", "Arize Phoenix", "OpenInference", "LLM Evals", "Golden-Set Evals", "NeMo Guardrails", "Prompt Guard", "Hugging Face Embeddings", "Document Processing", "Structured Output", "fal.ai", "nano-banana"]],
     ["ai_tools", ["Cursor", "Claude", "Claude Code", "ChatGPT", "Cursor Bugbot", "AI-Assisted Development"]],
     ["cloud_devops", ["AWS (S3, EC2, RDS, Lambda, CloudFront, ACM, IAM, Bedrock)", "GCP (Cloud Run, Cloud SQL, Pub/Sub, API Gateway)", "Azure (Blob)", "Terraform", "Docker", "Kubernetes", "GitHub Actions", "CI/CD", "Vercel", "Datadog"]],
     ["architecture", ["Microservices", "Service-Oriented Architecture", "Apache Kafka", "Event-Driven Systems", "System Design"]],
@@ -249,11 +249,20 @@ for (const [name, label] of [
 }
 
 // ---------- Projects ----------
-// n is the card's number in README.md's order; cards 02-05 were made outside this script.
+// n is the card's number in README.md's order; cards 03-06 were made outside this script.
 const projects = [
   {
-    file: "project-irpf-copilot",
+    file: "project-irs-copilot",
     n: 1,
+    kind: "Agentic RAG · Evals",
+    title: "IRS Copilot",
+    repo: "Eric-Souza/irs-copilot",
+    desc: "Agent over IRS Publication 17 that cites the sections it used, measured against plain RAG on an 80-question golden set, with an experiment on whether it follows the publication's links.",
+    tags: ["Python", "LlamaIndex", "Gemini", "Chroma", "Pinecone", "Arize Phoenix", "pytest"],
+  },
+  {
+    file: "project-irpf-copilot",
+    n: 2,
     kind: "Agentic RAG · Evals",
     title: "IRPF Copilot",
     repo: "Eric-Souza/irpf-copilot",
@@ -262,7 +271,7 @@ const projects = [
   },
   {
     file: "project-job-copilot",
-    n: 6,
+    n: 7,
     kind: "LLM Agent · RAG",
     title: "Job Application Copilot",
     repo: "Eric-Souza/job-application-copilot",
@@ -271,7 +280,7 @@ const projects = [
   },
   {
     file: "project-profile-mcp",
-    n: 7,
+    n: 8,
     kind: "MCP · AI Tooling",
     title: "Profile MCP Server",
     repo: "Eric-Souza/profile-mcp-server",
@@ -280,7 +289,7 @@ const projects = [
   },
   {
     file: "project-gemini-rag",
-    n: 8,
+    n: 9,
     kind: "RAG · Document AI",
     title: "Gemini RAG Doc Processing",
     repo: "Eric-Souza/gemini-rag-doc-processing",
@@ -289,7 +298,7 @@ const projects = [
   },
   {
     file: "project-travel-planner",
-    n: 9,
+    n: 10,
     kind: "RAG · Local LLM · Mobile",
     title: "Travel Planner",
     repo: "Eric-Souza/travel-planner-api",
@@ -298,7 +307,7 @@ const projects = [
   },
   {
     file: "project-dispatchbot",
-    n: 10,
+    n: 11,
     kind: "LLM Agent",
     title: "DispatchBot",
     repo: "Eric-Souza/job-dispatch-bot",
@@ -307,7 +316,7 @@ const projects = [
   },
   {
     file: "project-lakeside",
-    n: 11,
+    n: 12,
     kind: "Healthcare · Full Stack",
     title: "Lakeside Session Review Console",
     repo: "Eric-Souza/therapy-session-review-test",
